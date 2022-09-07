@@ -7,6 +7,7 @@
 ### 3. Génération de projet
 ### 4. Ajout d'entités
 ### 5. Coder
+### 6. Déploiement
 
 <img src="https://www.pnglib.com/wp-content/uploads/2020/08/jhipster-logo_5f33f6a91ec80.png" align="right" style="height: 64px"/>
 
@@ -207,3 +208,12 @@ src/main/webapp/app/entities/post/list/post.component.html
 
 ![step 11](./Image11.png)
 
+
+# 6. Déploiement
+
+Lancer la commande suivante pourpréparer la prod avec les tests d'intégration : 
+
+```bash
+./mvnw -Pprod verify
+jhipster heroku
+```
