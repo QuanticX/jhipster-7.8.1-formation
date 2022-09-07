@@ -215,5 +215,6 @@ Lancer la commande suivante pourpréparer la prod avec les tests d'intégration 
 
 ```bash
 ./mvnw -Pprod verify
+heroku auth:login 
 jhipster heroku
 ```
