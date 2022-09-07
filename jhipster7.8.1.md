@@ -43,9 +43,9 @@ Pour générer un projet jHipster, il faut crée un dossier portant le nom simpl
 ```bash
 jhipster
 ```
-![step 1](./image1.png) 
+![step 1](./Image1.png) 
 
-![step 2](./image2.png) 
+![step 2](./Image2.png) 
 
 Pour lancer l'application générer, il faut lancer la commande suivante: 
 
@@ -53,16 +53,16 @@ Pour lancer l'application générer, il faut lancer la commande suivante:
 ./mvnw
 ```
 
-![step 3](./image3.png) 
+![step 3](./Image3.png) 
 
 Quand l'application à fini de charger, il faut aller sur  [localhost:8080](https://localhost:8080) pour voir l'application généré.
 
-![step 4](./image4.png) 
+![step 4](./Image4.png) 
 
 
 # 4. Ajout d'entités
 
-![step 5](./image5.png)
+![step 5](./Image5.png)
 
 ```bash
 blog.jdl
@@ -113,16 +113,16 @@ a
 
 pour en faire de même pour tous les autres fichiers
 
-![step 6](./image6.png)
+![step 6](./Image6.png)
 
-![step 7](./image7.png)
+![step 7](./Image7.png)
 
 Puis il faudra relancer l'application générer avec la commande suivante: 
 
 ```bash
 ./mvnw
 ```
-![step 8](./image8.png)
+![step 8](./Image8.png)
 
 
 # 5. Coder
@@ -151,7 +151,7 @@ return blogRepository.findByUserIsCurrentUser();
 
 ```
 
-![step 9](./image9.png)
+![step 9](./Image9.png)
 
 Pour plus de confidentialité nous allons remplacer le code dans le fichier  **PostResource.java** et **PostRepository.java** 
 
@@ -173,7 +173,7 @@ if(page.getTotalElements()==0 && page.stream().allMatch(post -> post.getBlog()==
 }
 
 ```
-![step 10](./image10.png)
+![step 10](./Image10.png)
 
 Nous allons intégrer du code html à la volé nous allons modifier du code dans le fichier  **post.component.html**
 
@@ -205,5 +205,5 @@ src/main/webapp/app/entities/post/list/post.component.html
 
 ```
 
-![step 11](./image11.png)
+![step 11](./Image11.png)
 
